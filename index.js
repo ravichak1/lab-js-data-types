@@ -10,8 +10,10 @@ const s5 = "and";
 // Concatenate the string variables into one new string
 
 // Print out the concatenated string
-console.log(`${s1} ${s2} ${s3} ${s4} ${s5}`);
 
+const tongueTwister = s1 + " "+ s2 + " "+ s3 + " " + s4+ " "+ s5;
+console.log(`${s1} ${s2} ${s3} ${s4} ${s5}`);
+console.log(tongueTwister);
 /*******************************************
     Iteration 1.2 | Camel Tail
 *******************************************/
@@ -41,7 +43,9 @@ const newName1 = cameLtaiL(part1);
 const newName2 = cameLtaiL(part2);
 // Print the cameLtaiL-formatted string
 
-console.log(`${newName1}${newName2}`);
+const newName = newName1 + newName2;
+
+console.log(newName);
 
 /*******************************************
     Iteration 2.1 | Calculate Tip
